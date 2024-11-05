@@ -2,8 +2,8 @@ import pandas as pd
 
 # Reading the Excel files
 try:
-    final_report = pd.read_excel('T:/1. PROJECTS/BCG X - GEN AI/Task - 1/final_data_report.xlsx')
-    summary_report = pd.read_excel('T:/1. PROJECTS/BCG X - GEN AI/Task - 1/report_summary.xlsx')
+    final_report = pd.read_excel('final_data_report.xlsx')
+    summary_report = pd.read_excel('report_summary.xlsx')
 except Exception as e:
     print(f"Error reading files: {e}")
 
